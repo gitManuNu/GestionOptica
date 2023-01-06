@@ -10,5 +10,11 @@ def index(request):
     })
     return HttpResponse(html)
 
-
-    
+def alta_personas(request):
+    if request.method == 'GET':
+        html = render(request, 'form_personas.html')
+    else:
+        nombre = request.POST['nombre']
+        print(nombre)
+        html = render(request, 'personas.html')
+    return HttpResponse(html)

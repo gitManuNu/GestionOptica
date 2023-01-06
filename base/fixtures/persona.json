@@ -1,0 +1,26 @@
+[
+    {
+        "model":"base.persona",
+        "pk": 1,
+        "fields":{
+            "apellido": "Gonzalez",
+            "nombre": "Leandro",
+            "direccion": "J.Chavarri 811",
+            "mail":"manoplamn@gmail.com",
+            "tel1":"3471669854",
+            "tel2":"3401789962"
+        }
+    },
+    {
+        "model":"base.persona",
+        "pk": 2,
+        "fields":{
+            "apellido": "Skadborj",
+            "nombre": "IdaMarie",
+            "direccion": "Uterbraken 88:235.2",
+            "mail":"a@a.com",
+            "tel1":"3471669854",
+            "tel2":"3401789962"
+        }
+    }
+]

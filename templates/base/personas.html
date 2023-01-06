@@ -1,4 +1,6 @@
 <html>
 <p>Hola Mundo</p>
-<p>{{ personas }}</p>
+{% for vista in personas %}
+    <p>{{ vista }}</p>
+{% endfor %}
 </html>
