@@ -1,0 +1,44 @@
+[
+    {
+        "model":"base.Lente",
+        "pk": 1,
+        "fields":{
+            "descripcion": "CR39"
+        }
+    },
+    {
+        "model":"base.Lente",
+        "pk": 2,
+        "fields":{
+            "descripcion": "FOTOCROMATICO"
+        }
+    },
+    {
+        "model":"base.Lente",
+        "pk": 3,
+        "fields":{
+            "descripcion": "MULTIFOCAL"
+        }
+    },
+    {
+        "model":"base.Lente",
+        "pk": 4,
+        "fields":{
+            "descripcion": "HIGH LITE"
+        }
+    },
+    {
+        "model":"base.Lente",
+        "pk": 5,
+        "fields":{
+            "descripcion": "MINERAL"
+        }
+    },
+    {
+        "model":"base.Lente",
+        "pk": 5,
+        "fields":{
+            "descripcion": "BLUE CUT"
+        }
+    }
+]

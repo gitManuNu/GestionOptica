@@ -81,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'db_optica',
         'USER': 'root',
-        'PASSWORD': '100702',
+        'PASSWORD': 'admin',#'100702',
         'HOST': 'localhost',
         'PORT': '3306',
     }

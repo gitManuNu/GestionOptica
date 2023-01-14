@@ -1,0 +1,37 @@
+[
+    {
+        "model":"base.Proveedor",
+        "pk": 1,
+        "fields":{
+            "descripcion": "innova soluciones uno-a-uno"
+        }
+    },
+    {
+        "model":"base.Proveedor",
+        "pk": 2,
+        "fields":{
+            "descripcion": "libera métricas verticales"
+        }
+    },
+    {
+        "model":"base.Proveedor",
+        "pk": 3,
+        "fields":{
+            "descripcion": "visualiza plataformas 24/365"
+        }
+    },
+    {
+        "model":"base.Proveedor",
+        "pk": 4,
+        "fields":{
+            "descripcion": "entrega entregables punto-com"
+        }
+    },
+    {
+        "model":"base.Proveedor",
+        "pk": 5,
+        "fields":{
+            "descripcion": "redefine experiencias personalizado"
+        }
+    }
+]
