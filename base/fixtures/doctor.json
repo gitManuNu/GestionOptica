@@ -3,9 +3,9 @@
   "model": "base.doctor",
   "pk": 1,
   "fields": {
-    "apellido": "Sepúlveda",
+    "apellido": "SepÃºlveda",
     "nombre": "Carolina",
-    "ciudad": "Quilpué"
+    "ciudad": "QuilpuÃ­"
   }
 },
 {
@@ -21,16 +21,16 @@
   "model": "base.doctor",
   "pk": 3,
   "fields": {
-    "apellido": "Farías",
+    "apellido": "FarÃ­as",
     "nombre": "Eduardo",
-    "ciudad": "Pucón"
+    "ciudad": "Pucan"
   }
 },
 {
   "model": "base.doctor",
   "pk": 4,
   "fields": {
-    "apellido": "Urzúa",
+    "apellido": "UrzÃ­a",
     "nombre": "Fernando",
     "ciudad": "Cerro Navia"
   }

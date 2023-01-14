@@ -109,7 +109,7 @@
   "fields": {
     "apellido": "Saavedra",
     "nombre": "Francisca",
-    "direccion": "Mar�a Arriagada 373 Dpto. 36\nNavidad, Region del Libertador General Bernardo O'Higgins",
+    "direccion": "María Arriagada 373 Dpto. 36\nNavidad, Region del Libertador General Bernardo O'Higgins",
     "mail": "claudia40@example.net",
     "tel1": "+56 67 292 8374",
     "tel2": "+56 2 3738 0040",
@@ -135,7 +135,7 @@
   "fields": {
     "apellido": "Campos",
     "nombre": "Facundo",
-    "direccion": "Cindy Munoz 675 Of. 633\nJuan Fern�ndez, Region de Valpara�so, 3937600",
+    "direccion": "Cindy Munoz 675 Of. 633\nJuan Fern�ndez, Region de Valparaíso, 3937600",
     "mail": "erwin69@example.org",
     "tel1": "+56 2 3315 0490",
     "tel2": "+56 2 3468 4451",
@@ -148,7 +148,7 @@
   "fields": {
     "apellido": "Carrasco",
     "nombre": "Javiera",
-    "direccion": "Los Aromos 6212\nMar�a Elena, Region de Antofagasta, 6115930",
+    "direccion": "Los Aromos 6212\nMaría Elena, Region de Antofagasta, 6115930",
     "mail": "elvis94@example.org",
     "tel1": "+56 55 318 7629",
     "tel2": null,
@@ -172,9 +172,9 @@
   "model": "base.persona",
   "pk": 14,
   "fields": {
-    "apellido": "Sep�lveda",
-    "nombre": "Mar�a",
-    "direccion": "Avenida Rodrigo Mart�nez 44\nCuracav�, Region Metropolitana, 5323770",
+    "apellido": "Sepúlveda",
+    "nombre": "María",
+    "direccion": "Avenida Rodrigo Martínez 44\nCuracavú, Region Metropolitana, 5323770",
     "mail": "isabelriffo@example.com",
     "tel1": "+56 75 335 5374",
     "tel2": "+56 2 2411 6715",
@@ -187,7 +187,7 @@
   "fields": {
     "apellido": "Meza",
     "nombre": "Patricio",
-    "direccion": "Arturo Alessandri 679\nArauco, Region del Biob�o, 9909660",
+    "direccion": "Arturo Alessandri 679\nArauco, Region del Biobío, 9909660",
     "mail": "irma74@example.com",
     "tel1": "+56 2 3152 6120",
     "tel2": null,
@@ -211,9 +211,9 @@
   "model": "base.persona",
   "pk": 17,
   "fields": {
-    "apellido": "Mor�n",
+    "apellido": "Morón",
     "nombre": "Daniel",
-    "direccion": "Calle Sebasti�n Henr�quez 5792 Piso 91\nHualp�n, Region del Biob�o",
+    "direccion": "Calle Sebastián Henríquez 5792 Piso 91\nHualpin, Region del Biobío",
     "mail": "ldiaz@example.com",
     "tel1": "+56 75 330 4041",
     "tel2": "+56 41 364 0741",
@@ -224,9 +224,9 @@
   "model": "base.persona",
   "pk": 18,
   "fields": {
-    "apellido": "C�spedes",
+    "apellido": "Céspedes",
     "nombre": "Sergio",
-    "direccion": "Psje. Matta 381\nPe�alol�n, Region Metropolitana",
+    "direccion": "Psje. Matta 381\nPenalolon, Region Metropolitana",
     "mail": "belenbravo@example.org",
     "tel1": "+56 2 3498 3269",
     "tel2": null,
@@ -239,7 +239,7 @@
   "fields": {
     "apellido": "Jara",
     "nombre": "Francisco",
-    "direccion": "Calle Las Margaritas 96\nO'Higgins, Region de Ays�n del General Carlos Ib��ez del Campo",
+    "direccion": "Calle Las Margaritas 96\nO'Higgins, Region de Aysón del General Carlos Ibañez del Campo",
     "mail": "veronica08@example.org",
     "tel1": "+56 2 2931 4985",
     "tel2": null,
@@ -250,7 +250,7 @@
   "model": "base.persona",
   "pk": 20,
   "fields": {
-    "apellido": "Ram�rez",
+    "apellido": "Ramirez",
     "nombre": "Luisa",
     "direccion": "Ruta 5 Norte, km 177",
     "mail": "icruces@example.org",
@@ -264,8 +264,8 @@
   "pk": 21,
   "fields": {
     "apellido": "Aguilar",
-    "nombre": "Mar�a",
-    "direccion": "Manuel Montt 810 Piso 8\nCuraco de V�lez, Region de Los Lagos",
+    "nombre": "María",
+    "direccion": "Manuel Montt 810 Piso 8\nCuraco de Vélez, Region de Los Lagos",
     "mail": "gutierrezluis@example.org",
     "tel1": "+56 33 344 3766",
     "tel2": null,
@@ -276,9 +276,9 @@
   "model": "base.persona",
   "pk": 22,
   "fields": {
-    "apellido": "Cort�s",
+    "apellido": "Cortés",
     "nombre": "Arnaldo",
-    "direccion": "Psje. Los Pi�ones 7 Dpto. 324\nChait�n, Region de Los Lagos, 5689350",
+    "direccion": "Psje. Los Piñones 7 Dpto. 324\nChaitán, Region de Los Lagos, 5689350",
     "mail": "ignacia70@example.org",
     "tel1": "+56 32 317 7525",
     "tel2": null,
@@ -291,7 +291,7 @@
   "fields": {
     "apellido": "Cerda",
     "nombre": "Flavio",
-    "direccion": "Matilde Ram�rez 1640 Of. 1765\nTiltil, Region Metropolitana",
+    "direccion": "Matilde Ramirez 1640 Of. 1765\nTiltil, Region Metropolitana",
     "mail": "diegovarela@example.org",
     "tel1": "+56 32 214 4664",
     "tel2": "+56 9 3484 8812",
@@ -304,7 +304,7 @@
   "fields": {
     "apellido": "Gonzalez",
     "nombre": "Alexandra",
-    "direccion": "Calle Aurora Soto 340 Of. 436\nAlhu�, Region Metropolitana",
+    "direccion": "Calle Aurora Soto 340 Of. 436\nAlhu, Region Metropolitana",
     "mail": "mariaarcos@example.com",
     "tel1": "+56 9 6700 9415",
     "tel2": null,
@@ -317,7 +317,7 @@
   "fields": {
     "apellido": "Figueroa",
     "nombre": "Lucila",
-    "direccion": "Calle Arturo Prat 91\nRinconada, Region de Valpara�so",
+    "direccion": "Calle Arturo Prat 91\nRinconada, Region de Valparaíso",
     "mail": "cesar14@example.org",
     "tel1": "+56 600 762 101",
     "tel2": "+56 9 6370 4256",
@@ -343,7 +343,7 @@
   "fields": {
     "apellido": "Soto",
     "nombre": "Juan",
-    "direccion": "Irarr�zabal 2644\nPenco, Region del Biob�o",
+    "direccion": "Irarrázabal 2644\nPenco, Region del Biobío",
     "mail": "fjimenez@example.org",
     "tel1": "+56 2 2659 6970",
     "tel2": null,
@@ -354,9 +354,9 @@
   "model": "base.persona",
   "pk": 28,
   "fields": {
-    "apellido": "V�liz",
-    "nombre": "Mat�as",
-    "direccion": "Manuel Rodr�guez 36\nLa Florida, Region Metropolitana",
+    "apellido": "Véliz",
+    "nombre": "Matías",
+    "direccion": "Manuel Rodriguez 36\nLa Florida, Region Metropolitana",
     "mail": "julialagos@example.org",
     "tel1": "+56 9 4446 8164",
     "tel2": null,
@@ -369,7 +369,7 @@
   "fields": {
     "apellido": "Adasme",
     "nombre": "Camilo",
-    "direccion": "Jonathan Toro 3 Of. 9214\nHualaihu�, Region de Los Lagos",
+    "direccion": "Jonathan Toro 3 Of. 9214\nHualaihuá, Region de Los Lagos",
     "mail": "edelmiraarias@example.com",
     "tel1": "+56 800 384 534",
     "tel2": null,
@@ -382,7 +382,7 @@
   "fields": {
     "apellido": "Garrido",
     "nombre": "Cristian",
-    "direccion": "Manuel Jos� Irarr�zaval 8\nVictoria, Region de La Araucana",
+    "direccion": "Manuel José Irarrazaval 8\nVictoria, Region de La Araucana",
     "mail": "cisternaslidia@example.org",
     "tel1": "+56 71 374 9051",
     "tel2": null,
@@ -419,7 +419,7 @@
   "model": "base.persona",
   "pk": 33,
   "fields": {
-    "apellido": "Echeverr�a",
+    "apellido": "Echeverría",
     "nombre": "Elena",
     "direccion": "Ruta 5 Norte, km 319",
     "mail": "cristinatoro@example.com",
@@ -434,7 +434,7 @@
   "fields": {
     "apellido": "Escobar",
     "nombre": "Cecilia",
-    "direccion": "Calle Baquedano 774 Piso 57\nConchal�, Region Metropolitana",
+    "direccion": "Calle Baquedano 774 Piso 57\nConchalá, Region Metropolitana",
     "mail": "mariamaldonado@example.net",
     "tel1": "+56 9 7459 5463",
     "tel2": null,
