@@ -1,0 +1,50 @@
+[
+    {
+        "model":"base.Armazon",
+        "pk": 1,
+        "fields":{
+            "descripcion": "PROPIO",
+            "proveedor": 2
+        }
+    },
+    {
+        "model":"base.Armazon",
+        "pk": 2,
+        "fields":{
+            "descripcion": "NABIRA",
+            "proveedor": 4
+        }
+    },
+    {
+        "model":"base.Armazon",
+        "pk": 3,
+        "fields":{
+            "descripcion": "WEST",
+            "proveedor": 1
+        }
+    },
+    {
+        "model":"base.Armazon",
+        "pk": 4,
+        "fields":{
+            "descripcion": "LOPEZ",
+            "proveedor": 1
+        }
+    },
+    {
+        "model":"base.Armazon",
+        "pk": 5,
+        "fields":{
+            "descripcion": "TJ",
+            "proveedor": 4
+        }
+    },
+    {
+        "model":"base.Armazon",
+        "pk": 6,
+        "fields":{
+            "descripcion": "L'MON",
+            "proveedor": 2
+        }
+    }
+]

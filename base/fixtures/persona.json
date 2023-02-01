@@ -1,26 +1,444 @@
 [
-    {
-        "model":"base.persona",
-        "pk": 1,
-        "fields":{
-            "apellido": "Gonzalez",
-            "nombre": "Leandro",
-            "direccion": "J.Chavarri 811",
-            "mail":"manoplamn@gmail.com",
-            "tel1":"3471669854",
-            "tel2":"3401789962"
-        }
-    },
-    {
-        "model":"base.persona",
-        "pk": 2,
-        "fields":{
-            "apellido": "Skadborj",
-            "nombre": "IdaMarie",
-            "direccion": "Uterbraken 88:235.2",
-            "mail":"a@a.com",
-            "tel1":"3471669854",
-            "tel2":"3401789962"
-        }
-    }
+{
+  "model": "base.persona",
+  "pk": 1,
+  "fields": {
+    "apellido": "Vacchino",
+    "nombre": "Lucas",
+    "direccion": "Calle falsa 123",
+    "mail": "lnv@otro.com",
+    "tel1": "12345678",
+    "tel2": "12345678",
+    "obra_social": 1
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 2,
+  "fields": {
+    "apellido": "Bustamante",
+    "nombre": "Mario",
+    "direccion": "Los Tilos 9917 Of. 8677\nSan Nicolas, Region de Nuble, 9823310",
+    "mail": "carlosmamani@example.org",
+    "tel1": "+56 2 3676 5858",
+    "tel2": "+56 2 3311 2002",
+    "obra_social": 3
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 3,
+  "fields": {
+    "apellido": "Soto",
+    "nombre": "Paulina",
+    "direccion": "Ruta T-62, km 22, Region de La Araucana",
+    "mail": "cchavez@example.net",
+    "tel1": "+56 600 274 451",
+    "tel2": null,
+    "obra_social": 2
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 4,
+  "fields": {
+    "apellido": "Velasquez",
+    "nombre": "Maite",
+    "direccion": "Guillermo Silva 8201 Dpto. 659\nParral, Region del Maule, 1853090",
+    "mail": "esperanzacares@example.net",
+    "tel1": "+56 44 288 8251",
+    "tel2": "+56 58 222 8833",
+    "obra_social": 4
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 5,
+  "fields": {
+    "apellido": "Gonzalez",
+    "nombre": "Pedro",
+    "direccion": "Ruta T-89, km 2, Region de La Araucana",
+    "mail": "andreasolis@example.org",
+    "tel1": "+56 600 796 589",
+    "tel2": null,
+    "obra_social": 2
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 6,
+  "fields": {
+    "apellido": "Zepeda",
+    "nombre": "Ricardo",
+    "direccion": "Erika Aguilar 138\nCalama, Region de Antofagasta, 0434840",
+    "mail": "wfuentes@example.net",
+    "tel1": "+56 2 2542 3495",
+    "tel2": "+56 600 450 138",
+    "obra_social": 2
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 7,
+  "fields": {
+    "apellido": "Munoz",
+    "nombre": "Agustina",
+    "direccion": "Carlos Fern�ndez 2775\nColchane, Region de Tarapac�",
+    "mail": "daniasepulveda@example.net",
+    "tel1": "+56 72 216 7898",
+    "tel2": "+56 53 329 3399",
+    "obra_social": 1
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 8,
+  "fields": {
+    "apellido": "Rubilar",
+    "nombre": "Cynthia",
+    "direccion": "Michimalonco 2929\nAlto del Carmen, Region de Atacama, 9003500",
+    "mail": "luis94@example.com",
+    "tel1": "+56 800 709 590",
+    "tel2": null,
+    "obra_social": 1
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 9,
+  "fields": {
+    "apellido": "Saavedra",
+    "nombre": "Francisca",
+    "direccion": "María Arriagada 373 Dpto. 36\nNavidad, Region del Libertador General Bernardo O'Higgins",
+    "mail": "claudia40@example.net",
+    "tel1": "+56 67 292 8374",
+    "tel2": "+56 2 3738 0040",
+    "obra_social": 1
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 10,
+  "fields": {
+    "apellido": "P�ez",
+    "nombre": "Juan",
+    "direccion": "Pasaje Esmeralda 4124\nGeneral Lagos, Region de Arica y Parinacota, 5866640",
+    "mail": "claudiaroa@example.com",
+    "tel1": "+56 32 256 7838",
+    "tel2": "+56 58 245 5050",
+    "obra_social": 3
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 11,
+  "fields": {
+    "apellido": "Campos",
+    "nombre": "Facundo",
+    "direccion": "Cindy Munoz 675 Of. 633\nJuan Fern�ndez, Region de Valparaíso, 3937600",
+    "mail": "erwin69@example.org",
+    "tel1": "+56 2 3315 0490",
+    "tel2": "+56 2 3468 4451",
+    "obra_social": 4
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 12,
+  "fields": {
+    "apellido": "Carrasco",
+    "nombre": "Javiera",
+    "direccion": "Los Aromos 6212\nMaría Elena, Region de Antofagasta, 6115930",
+    "mail": "elvis94@example.org",
+    "tel1": "+56 55 318 7629",
+    "tel2": null,
+    "obra_social": 4
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 13,
+  "fields": {
+    "apellido": "Carrasco",
+    "nombre": "Luis",
+    "direccion": "Ruta U-828, km 11, Region de La Araucana",
+    "mail": "hvalenzuela@example.net",
+    "tel1": "+56 71 320 5069",
+    "tel2": "+56 2 3881 2522",
+    "obra_social": 1
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 14,
+  "fields": {
+    "apellido": "Sepúlveda",
+    "nombre": "María",
+    "direccion": "Avenida Rodrigo Martínez 44\nCuracavú, Region Metropolitana, 5323770",
+    "mail": "isabelriffo@example.com",
+    "tel1": "+56 75 335 5374",
+    "tel2": "+56 2 2411 6715",
+    "obra_social": 1
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 15,
+  "fields": {
+    "apellido": "Meza",
+    "nombre": "Patricio",
+    "direccion": "Arturo Alessandri 679\nArauco, Region del Biobío, 9909660",
+    "mail": "irma74@example.com",
+    "tel1": "+56 2 3152 6120",
+    "tel2": null,
+    "obra_social": 3
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 16,
+  "fields": {
+    "apellido": "Toledo",
+    "nombre": "Francisca",
+    "direccion": "Patricia Maldonado 4966 Of. 1829\nSalamanca, Region de Coquimbo, 2231950",
+    "mail": "diegofarias@example.org",
+    "tel1": "+56 9 6721 4661",
+    "tel2": null,
+    "obra_social": 1
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 17,
+  "fields": {
+    "apellido": "Morón",
+    "nombre": "Daniel",
+    "direccion": "Calle Sebastián Henríquez 5792 Piso 91\nHualpin, Region del Biobío",
+    "mail": "ldiaz@example.com",
+    "tel1": "+56 75 330 4041",
+    "tel2": "+56 41 364 0741",
+    "obra_social": 2
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 18,
+  "fields": {
+    "apellido": "Céspedes",
+    "nombre": "Sergio",
+    "direccion": "Psje. Matta 381\nPenalolon, Region Metropolitana",
+    "mail": "belenbravo@example.org",
+    "tel1": "+56 2 3498 3269",
+    "tel2": null,
+    "obra_social": 4
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 19,
+  "fields": {
+    "apellido": "Jara",
+    "nombre": "Francisco",
+    "direccion": "Calle Las Margaritas 96\nO'Higgins, Region de Aysón del General Carlos Ibañez del Campo",
+    "mail": "veronica08@example.org",
+    "tel1": "+56 2 2931 4985",
+    "tel2": null,
+    "obra_social": 1
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 20,
+  "fields": {
+    "apellido": "Ramirez",
+    "nombre": "Luisa",
+    "direccion": "Ruta 5 Norte, km 177",
+    "mail": "icruces@example.org",
+    "tel1": "+56 2 2918 4292",
+    "tel2": null,
+    "obra_social": 3
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 21,
+  "fields": {
+    "apellido": "Aguilar",
+    "nombre": "María",
+    "direccion": "Manuel Montt 810 Piso 8\nCuraco de Vélez, Region de Los Lagos",
+    "mail": "gutierrezluis@example.org",
+    "tel1": "+56 33 344 3766",
+    "tel2": null,
+    "obra_social": 4
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 22,
+  "fields": {
+    "apellido": "Cortés",
+    "nombre": "Arnaldo",
+    "direccion": "Psje. Los Piñones 7 Dpto. 324\nChaitán, Region de Los Lagos, 5689350",
+    "mail": "ignacia70@example.org",
+    "tel1": "+56 32 317 7525",
+    "tel2": null,
+    "obra_social": 3
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 23,
+  "fields": {
+    "apellido": "Cerda",
+    "nombre": "Flavio",
+    "direccion": "Matilde Ramirez 1640 Of. 1765\nTiltil, Region Metropolitana",
+    "mail": "diegovarela@example.org",
+    "tel1": "+56 32 214 4664",
+    "tel2": "+56 9 3484 8812",
+    "obra_social": 4
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 24,
+  "fields": {
+    "apellido": "Gonzalez",
+    "nombre": "Alexandra",
+    "direccion": "Calle Aurora Soto 340 Of. 436\nAlhu, Region Metropolitana",
+    "mail": "mariaarcos@example.com",
+    "tel1": "+56 9 6700 9415",
+    "tel2": null,
+    "obra_social": 1
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 25,
+  "fields": {
+    "apellido": "Figueroa",
+    "nombre": "Lucila",
+    "direccion": "Calle Arturo Prat 91\nRinconada, Region de Valparaíso",
+    "mail": "cesar14@example.org",
+    "tel1": "+56 600 762 101",
+    "tel2": "+56 9 6370 4256",
+    "obra_social": 3
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 26,
+  "fields": {
+    "apellido": "Saavedra",
+    "nombre": "Maite",
+    "direccion": "Calle Lautaro 2\nEl Monte, Region Metropolitana",
+    "mail": "lmartinez@example.com",
+    "tel1": "+56 800 101 585",
+    "tel2": "+56 9 9889 1009",
+    "obra_social": 1
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 27,
+  "fields": {
+    "apellido": "Soto",
+    "nombre": "Juan",
+    "direccion": "Irarrázabal 2644\nPenco, Region del Biobío",
+    "mail": "fjimenez@example.org",
+    "tel1": "+56 2 2659 6970",
+    "tel2": null,
+    "obra_social": 1
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 28,
+  "fields": {
+    "apellido": "Véliz",
+    "nombre": "Matías",
+    "direccion": "Manuel Rodriguez 36\nLa Florida, Region Metropolitana",
+    "mail": "julialagos@example.org",
+    "tel1": "+56 9 4446 8164",
+    "tel2": null,
+    "obra_social": 4
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 29,
+  "fields": {
+    "apellido": "Adasme",
+    "nombre": "Camilo",
+    "direccion": "Jonathan Toro 3 Of. 9214\nHualaihuá, Region de Los Lagos",
+    "mail": "edelmiraarias@example.com",
+    "tel1": "+56 800 384 534",
+    "tel2": null,
+    "obra_social": 4
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 30,
+  "fields": {
+    "apellido": "Garrido",
+    "nombre": "Cristian",
+    "direccion": "Manuel José Irarrazaval 8\nVictoria, Region de La Araucana",
+    "mail": "cisternaslidia@example.org",
+    "tel1": "+56 71 374 9051",
+    "tel2": null,
+    "obra_social": 4
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 31,
+  "fields": {
+    "apellido": "Gonzalez",
+    "nombre": "Romina",
+    "direccion": "Calle Juan Poblete 98\nPudahuel, Region Metropolitana",
+    "mail": "marcelanorambuena@example.net",
+    "tel1": "+56 44 386 8695",
+    "tel2": "+56 9 3481 2153",
+    "obra_social": 2
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 32,
+  "fields": {
+    "apellido": "Zamorano",
+    "nombre": "Manuel",
+    "direccion": "Calle Las Manzanillas 667\nLa Reina, Region Metropolitana, 0126610",
+    "mail": "figueroaraul@example.net",
+    "tel1": "+56 2 2864 9132",
+    "tel2": null,
+    "obra_social": 1
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 33,
+  "fields": {
+    "apellido": "Echeverría",
+    "nombre": "Elena",
+    "direccion": "Ruta 5 Norte, km 319",
+    "mail": "cristinatoro@example.com",
+    "tel1": "+56 2 2881 1375",
+    "tel2": "+56 67 275 1054",
+    "obra_social": 1
+  }
+},
+{
+  "model": "base.persona",
+  "pk": 34,
+  "fields": {
+    "apellido": "Escobar",
+    "nombre": "Cecilia",
+    "direccion": "Calle Baquedano 774 Piso 57\nConchalá, Region Metropolitana",
+    "mail": "mariamaldonado@example.net",
+    "tel1": "+56 9 7459 5463",
+    "tel2": null,
+    "obra_social": 1
+  }
+}
 ]

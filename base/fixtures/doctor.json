@@ -1,0 +1,56 @@
+[
+{
+  "model": "base.doctor",
+  "pk": 1,
+  "fields": {
+    "apellido": "Sepúlveda",
+    "nombre": "Carolina",
+    "ciudad": "Quilpuí"
+  }
+},
+{
+  "model": "base.doctor",
+  "pk": 2,
+  "fields": {
+    "apellido": "Pino",
+    "nombre": "Fernando",
+    "ciudad": "El Monte"
+  }
+},
+{
+  "model": "base.doctor",
+  "pk": 3,
+  "fields": {
+    "apellido": "Farías",
+    "nombre": "Eduardo",
+    "ciudad": "Pucan"
+  }
+},
+{
+  "model": "base.doctor",
+  "pk": 4,
+  "fields": {
+    "apellido": "Urzía",
+    "nombre": "Fernando",
+    "ciudad": "Cerro Navia"
+  }
+},
+{
+  "model": "base.doctor",
+  "pk": 5,
+  "fields": {
+    "apellido": "Guerrero",
+    "nombre": "Trinidad",
+    "ciudad": "Rancagua"
+  }
+},
+{
+  "model": "base.doctor",
+  "pk": 6,
+  "fields": {
+    "apellido": "Allende",
+    "nombre": "Vicente",
+    "ciudad": "Carahue"
+  }
+}
+]

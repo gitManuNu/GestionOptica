@@ -1,0 +1,182 @@
+[
+    {
+        "model":"base.LenteTratamiento",
+        "pk": 1,
+        "fields":{
+            "descripcion": "CR39",
+            "lente": 1,
+            "tratamiento": 1
+        }
+    },
+    {
+        "model":"base.LenteTratamiento",
+        "pk": 2,
+        "fields":{
+            "descripcion": "CR39 C/AR",
+            "lente": 1,
+            "tratamiento": 2
+        }
+    },
+    {
+        "model":"base.LenteTratamiento",
+        "pk": 3,
+        "fields":{
+            "descripcion": "CR39 DEGRADEE",
+            "lente": 1,
+            "tratamiento": 3
+        }
+    },
+    {
+        "model":"base.LenteTratamiento",
+        "pk": 4,
+        "fields":{
+            "descripcion": "CR39 TEÑIDO",
+            "lente": 1,
+            "tratamiento": 4
+        }
+    },
+    {
+        "model":"base.LenteTratamiento",
+        "pk": 5,
+        "fields":{
+            "descripcion": "CR39 LACA",
+            "lente": 1,
+            "tratamiento": 5
+        }
+    },
+    {
+        "model":"base.LenteTratamiento",
+        "pk": 6,
+        "fields":{
+            "descripcion": "FOTOCROMATICO",
+            "lente": 2,
+            "tratamiento": 1
+        }
+    },
+    {
+        "model":"base.LenteTratamiento",
+        "pk": 7,
+        "fields":{
+            "descripcion": "FOTOCROMATICO C/AR",
+            "lente": 2,
+            "tratamiento": 2
+        }
+    },
+    {
+        "model":"base.LenteTratamiento",
+        "pk": 8,
+        "fields":{
+            "descripcion": "FOTOCROMATICO DEGRADEE",
+            "lente": 2,
+            "tratamiento": 3
+        }
+    },
+    {
+        "model":"base.LenteTratamiento",
+        "pk": 9,
+        "fields":{
+            "descripcion": "FOTOCROMATICO TEÑIDO",
+            "lente": 2,
+            "tratamiento": 4
+        }
+    },
+    {
+        "model":"base.LenteTratamiento",
+        "pk": 10,
+        "fields":{
+            "descripcion": "FOTOCROMATICO LACA",
+            "lente": 2,
+            "tratamiento": 5
+        }
+    },
+    {
+        "model":"base.LenteTratamiento",
+        "pk": 11,
+        "fields":{
+            "descripcion": "MULTIFOCAL",
+            "lente": 3,
+            "tratamiento": 1
+        }
+    },
+    {
+        "model":"base.LenteTratamiento",
+        "pk": 12,
+        "fields":{
+            "descripcion": "MULTIFOCAL C/AR",
+            "lente": 3,
+            "tratamiento": 2
+        }
+    },
+    {
+        "model":"base.LenteTratamiento",
+        "pk": 13,
+        "fields":{
+            "descripcion": "MULTIFOCAL DEGRADEE",
+            "lente": 3,
+            "tratamiento": 3
+        }
+    },
+    {
+        "model":"base.LenteTratamiento",
+        "pk": 14,
+        "fields":{
+            "descripcion": "MULTIFOCAL TEÑIDO",
+            "lente": 3,
+            "tratamiento": 4
+        }
+    },
+    {
+        "model":"base.LenteTratamiento",
+        "pk": 15,
+        "fields":{
+            "descripcion": "MULTIFOCAL LACA",
+            "lente": 3,
+            "tratamiento": 5
+        }
+    },
+    {
+        "model":"base.LenteTratamiento",
+        "pk": 16,
+        "fields":{
+            "descripcion": "HIGH LITE",
+            "lente": 4,
+            "tratamiento": 1
+        }
+    },
+    {
+        "model":"base.LenteTratamiento",
+        "pk": 17,
+        "fields":{
+            "descripcion": "HIGH LITE C/AR",
+            "lente": 4,
+            "tratamiento": 2
+        }
+    },
+    {
+        "model":"base.LenteTratamiento",
+        "pk": 18,
+        "fields":{
+            "descripcion": "HIGH LITE DEGRADEE",
+            "lente": 4,
+            "tratamiento": 3
+        }
+    },
+    {
+        "model":"base.LenteTratamiento",
+        "pk": 19,
+        "fields":{
+            "descripcion": "HIGH LITE TEÑIDO",
+            "lente": 4,
+            "tratamiento": 4
+        }
+    },
+    {
+        "model":"base.LenteTratamiento",
+        "pk": 20,
+        "fields":{
+            "descripcion": "HIGH LITE LACA",
+            "lente": 4,
+            "tratamiento": 5
+        }
+    }
+]
