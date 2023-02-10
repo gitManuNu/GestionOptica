@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 
 class ObraSocial(models.Model):
     descripcion = models.CharField(max_length=60,verbose_name='obra_social',null=False,blank=False)
@@ -20,6 +21,9 @@ class Persona(models.Model):
     tel2 = models.CharField(max_length=25,verbose_name='telefono_2',null=True,blank=True)
     obra_social = models.ForeignKey(ObraSocial,null=True,verbose_name='persona_ob_soc',on_delete=models.SET_NULL,related_name='persona_ObraSocial')
     
+    def get_absolute_url(self):
+        return reverse('persona-detail-view', kwargs={'pk': self.pk})
+
     def __str__(self):
         return "%s, %s" % (self.apellido,self.nombre)
 

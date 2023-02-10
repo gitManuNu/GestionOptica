@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <style>
+              li {margin-bottom: 20;}
+          </style>
+    </head>
+    <body>
+        <h1>{{ persona.apellido }}, {{ persona.nombre }}</h1>
+        <ul>
+            <li>Dirección: <b>{{ persona.direccion }}</b></li>
+            <li>Correo: {{ persona.mail }}</li>
+            <li>Teléfono: {{ persona.tel1 }}</li>
+            <li>Teléfono (2): {% if persona.tel2 %}{{ persona.tel2 }}{% endif %}</li>
+            <li>Obra Social: {{ persona.obra_social }}</li>
+        </ul>
+    </body>
+    <button onclick="window.location.href='{% url 'persona-update-view' persona.id %}';">Editar</button>
+    <button onclick="window.location.href='{% url 'persona-delete-view' persona.id %}';">Borrar</button>
+</html>

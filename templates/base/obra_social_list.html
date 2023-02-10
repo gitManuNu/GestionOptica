@@ -5,7 +5,6 @@
   </a>
   <ul>
   {% for obra_social in object_list %}
-    {% comment %} <li><a href="{% url 'detalles­autores' autor.id %}">{{ autor.nombre }} {% endcomment %}
     <li>
       {{ obra_social.descripcion }}
       <a href="{% url 'obra-social-update-view' obra_social.id %}">Modificar</a>

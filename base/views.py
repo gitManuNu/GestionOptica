@@ -3,35 +3,12 @@ from django.views.generic import ListView, DetailView
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.urls import reverse, reverse_lazy
-from .models import *
+from .models import ObraSocial, Persona
 
-def index(request):
-    personas = Persona.objects.all()
-    print(personas)
-    html = render(request, 'personas.html', {
-        'personas':personas
-    })
-    return HttpResponse(html)
-
-def alta_personas(request):
-    if request.method == 'GET':
-        html = render(request, 'form_personas.html')
-    else:
-        nombre = request.POST['nombre']
-        print(nombre)
-        html = render(request, 'personas.html')
-    return HttpResponse(html)
-
-
+# CRUD - OBRAS SOCIALES
 class ObraSocialListView(ListView):
     model = ObraSocial
     template_name = "obra_social_list.html"
-
-
-class ObraSocialDetailView(DetailView):
-    model = ObraSocial
-    template_name = "obra_social_detail.html"
-    context_object_name = 'obra_social'
 
 
 class ObraSocialCreateView(CreateView):
@@ -54,4 +31,34 @@ class ObraSocialDeleteView(DeleteView):
     success_url = reverse_lazy('obra-social-list-view')
 
 
+# CRUD - PERSONAS
+class PersonaListView(ListView):
+    model = Persona
+    template_name = "persona_list.html"
+
+
+class PersonaDetailView(DetailView):
+    model = Persona
+    template_name = "persona_detail.html"
+    context_object_name = 'persona'
+
+
+class PersonaCreateView(CreateView):
+    model = Persona
+    fields = '__all__'
+    template_name = 'persona_create_form.html'
+    # success_url = reverse_lazy('persona-list-view')
+    
+
+class PersonaUpdateView(UpdateView):
+    model = Persona
+    fields = '__all__'
+    template_name = "persona_update_form.html"
+    #success_url = reverse_lazy('persona-detail-view',{'pk': self.object.id})
+
+
+class PersonaDeleteView(DeleteView):
+    model = Persona
+    template_name = "persona_confirm_delete.html"
+    success_url = reverse_lazy('persona-list-view')
 

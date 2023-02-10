@@ -1,0 +1,15 @@
+<html>
+  <h1>PERSONAS</h1>
+  <a href="{% url 'persona-create-view' %}">
+    <button>Agregar Nuevo</button>  
+  </a>
+  <ul>
+  {% for persona in object_list %}
+    <li>
+      <a style="color:#000000;" href="{% url 'persona-detail-view' persona.id %}">{{ persona.apellido }}, {{ persona.nombre }}</a>
+    </li>
+  {% empty %}
+  <li>No hay personas registradas.</li>
+  {% endfor %}
+  </ul>
+</html>
