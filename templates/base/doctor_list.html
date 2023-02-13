@@ -1,0 +1,15 @@
+<html>
+  <h1>DOCTORES</h1>
+  <a href="{% url 'doctor-create-view' %}">
+    <button>Agregar Nuevo</button>  
+  </a>
+  <ul>
+  {% for doctor in object_list %}
+    <li>
+      <a style="color:#000000;" href="{% url 'doctor-detail-view' doctor.id %}">{{ doctor.apellido }}</a>
+    </li>
+  {% empty %}
+  <li>No hay doctores registrados.</li>
+  {% endfor %}
+  </ul>
+</html>

@@ -38,6 +38,9 @@ class Doctor(models.Model):
     nombre = models.CharField(max_length=60,verbose_name='nombre',null=False,blank=False)
     ciudad = models.CharField(max_length=60,verbose_name='ciudad',null=False,blank=False)
 
+    def get_absolute_url(self):
+        return reverse('doctor-detail-view', kwargs={'pk': self.pk})
+    
     def __str__(self):
         return self.apellido
 

@@ -1,11 +1,2 @@
 <h1>CREAR NUEVA PERSONA</h1>
-<form action="" method="post">
-    {% csrf_token %}
-    <table>
-    {{ form.as_table }}
-    </table>
-    <p></p>
-    <div center>
-        <input type="submit" value="Agregar" />
-    </div>
-</form>
+{% include 'include/create_form.html' %}

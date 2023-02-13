@@ -2,8 +2,8 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.views.generic import ListView, DetailView
 from django.shortcuts import render
 from django.http import HttpResponse
-from django.urls import reverse, reverse_lazy
-from .models import ObraSocial, Persona
+from django.urls import reverse_lazy
+from .models import ObraSocial, Persona, Doctor
 
 # CRUD - OBRAS SOCIALES
 class ObraSocialListView(ListView):
@@ -47,14 +47,12 @@ class PersonaCreateView(CreateView):
     model = Persona
     fields = '__all__'
     template_name = 'persona_create_form.html'
-    # success_url = reverse_lazy('persona-list-view')
     
 
 class PersonaUpdateView(UpdateView):
     model = Persona
     fields = '__all__'
     template_name = "persona_update_form.html"
-    #success_url = reverse_lazy('persona-detail-view',{'pk': self.object.id})
 
 
 class PersonaDeleteView(DeleteView):
@@ -62,3 +60,32 @@ class PersonaDeleteView(DeleteView):
     template_name = "persona_confirm_delete.html"
     success_url = reverse_lazy('persona-list-view')
 
+
+# CRUD - DOCTORES
+class DoctorListView(ListView):
+    model = Doctor
+    template_name = "doctor_list.html"
+
+
+class DoctorDetailView(DetailView):
+    model = Doctor
+    template_name = "doctor_detail.html"
+    context_object_name = 'doctor'
+
+
+class DoctorCreateView(CreateView):
+    model = Doctor
+    fields = '__all__'
+    template_name = 'doctor_create_form.html'
+    
+
+class DoctorUpdateView(UpdateView):
+    model = Doctor
+    fields = '__all__'
+    template_name = "doctor_update_form.html"
+
+
+class DoctorDeleteView(DeleteView):
+    model = Doctor
+    template_name = "doctor_confirm_delete.html"
+    success_url = reverse_lazy('doctor-list-view')

@@ -1,4 +1,2 @@
-<form action="" method="post">{% csrf_token %}
-    <p> ¿Realmente quieres borrar la obra social "{{ object.descripcion }}"?</p>
-    <input type="submit" value="Confirmar" />
-</form>
+<h1>BORRAR OBRA SOCIAL</h1>
+{% include 'include/confirm_delete.html' %}

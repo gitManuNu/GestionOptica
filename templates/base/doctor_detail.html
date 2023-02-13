@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <style>
+              li {margin-bottom: 20;}
+          </style>
+    </head>
+    <body>
+        <h1>{{ doctor.apellido }}, {{ doctor.nombre }}</h1>
+        <ul>
+            <li>Ciudad: <b>{{ doctor.ciudad }}</b></li>
+        </ul>
+    </body>
+    <button onclick="window.location.href='{% url 'doctor-update-view' doctor.id %}';">Editar</button>
+    <button onclick="window.location.href='{% url 'doctor-delete-view' doctor.id %}';">Borrar</button>
+</html>
