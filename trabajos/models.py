@@ -9,7 +9,7 @@ class Trabajo(models.Model):
     tarea = models.CharField(max_length=250,verbose_name='tarea_trabajo',help_text='Tarea o actividad extra realizada sobre el trabajo')
     observacion = models.CharField(max_length=1000,verbose_name='observacion_trabajo')
     # Relaciones de tablas
-    persona = models.ForeignKey(Persona, on_delete=models.CASCADE, null=False, verbose_name='persona', related_name='persona_trabajo')
+    persona = models.ForeignKey(Persona, on_delete=models.CASCADE, null=True, verbose_name='persona', related_name='persona_trabajo')
     doctor = models.ForeignKey(Doctor, on_delete=models.SET_NULL, null=True, verbose_name='doctor',related_name='doctor_trabajo')
     fecha_receta = models.DateField(verbose_name='fecha_receta_trabajo',null=True)
     lente_con_tratamiento = models.ForeignKey(LenteTratamiento, on_delete=models.SET_NULL, null=True, verbose_name='lente_con_tratamiento',related_name='lente_con_tratamiento_trabajo')

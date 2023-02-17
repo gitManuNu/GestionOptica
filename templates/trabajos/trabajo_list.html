@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <title>Datos modelos</title>
+    <body>
+        <table border='2'>
+            <tr>
+                <th>Detalle</th>
+                <th>Fecha</th>
+                <th>Tarea</th>
+                <th>Observacion</th>
+                <th>Persona</th>
+                <th>Doctor</th>
+                <th>Fecha_receta</th>
+                <th>Lente_con_tratamiento</th>
+                <th>Armazon</th>
+                <th>Obra_social</th>
+                <th>Od_lejos_esf</th>
+                <th>Od_lejos_cil</th>
+                <th>Od_lejos_eje</th>
+                <th>Od_ad</th>
+                <th>Od_cerca_esf</th>
+                <th>Od_cerca_cil</th>
+                <th>Od_cerca_eje</th>
+                <th>Oi_lejos_esf</th>
+                <th>Oi_lejos_cil</th>
+                <th>Oi_lejos_eje</th>
+                <th>Oi_ad</th>
+                <th>Oi_cerca_esf</th>
+                <th>Oi_cerca_cil</th>
+                <th>Oi_cerca_eje</th>
+            </tr>
+            {% for trabajo in object_list %}
+                <tr>
+                    <td>{{ trabajo.detalle }}</td>
+                    <td>{{ trabajo.fecha }}</td>
+                    <td>{{ trabajo.tarea }}</td>
+                    <td>{{ trabajo.observacion }}</td>
+                    <td>{{ trabajo.persona }}</td>
+                    <td>{{ trabajo.doctor }}</td>
+                    <td>{{ trabajo.fecha_receta }}</td>
+                    <td>{{ trabajo.lente_con_tratamiento }}</td>
+                    <td>{{ trabajo.armazon }}</td>
+                    <td>{{ trabajo.obra_social }}</td>
+                    <td>{{ trabajo.od_lejos_esf }}</td>
+                    <td>{{ trabajo.od_lejos_cil }}</td>
+                    <td>{{ trabajo.od_lejos_eje }}</td>
+                    <td>{{ trabajo.od_ad }}</td>
+                    <td>{{ trabajo.od_cerca_esf }}</td>
+                    <td>{{ trabajo.od_cerca_cil }}</td>
+                    <td>{{ trabajo.od_cerca_eje }}</td>
+                    <td>{{ trabajo.oi_lejos_esf }}</td>
+                    <td>{{ trabajo.oi_lejos_cil }}</td>
+                    <td>{{ trabajo.oi_lejos_eje }}</td>
+                    <td>{{ trabajo.oi_ad }}</td>
+                    <td>{{ trabajo.oi_cerca_esf }}</td>
+                    <td>{{ trabajo.oi_cerca_cil }}</td>
+                    <td>{{ trabajo.oi_cerca_eje }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+        <p></p>
+        <a href="{% url 'generar-trabajo'%}">>Click para crear un trabajo<</a>
+    </body>
+</html>

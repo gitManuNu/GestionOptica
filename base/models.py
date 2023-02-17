@@ -69,6 +69,10 @@ class LenteTratamiento(models.Model):
     descripcion = models.CharField(max_length=60, verbose_name='lente_con_tratamiento',null=False,blank=False)
     lente = models.ForeignKey(Lente,null=False,verbose_name='lente',on_delete=models.CASCADE,related_name='lente_lenteTramamiento')
     tratamiento = models.ForeignKey(Lente,null=True,verbose_name='tratamiento',on_delete=models.SET_NULL,related_name='tratamiento_lenteTramamiento')
+    
+    def __str__(self):
+        return self.descripcion
+    
 
     class Meta:
         verbose_name='Lente con Tratamiento'
@@ -87,6 +91,10 @@ class Proveedor(models.Model):
 class Armazon(models.Model):
     descripcion = models.CharField(max_length=60, verbose_name='desc_armazon',null=False,blank=False)
     proveedor = models.CharField(max_length=60, verbose_name='proveedor_armazon',null=True,blank=True)
+    
+    def __str__(self):
+        return self.descripcion
+    
 
     class Meta:
         verbose_name='Armazon'

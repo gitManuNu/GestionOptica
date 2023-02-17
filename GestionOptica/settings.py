@@ -57,7 +57,9 @@ ROOT_URLCONF = 'GestionOptica.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates/base'),],
+        'DIRS': [os.path.join(BASE_DIR, 'templates/base'),
+                 os.path.join(BASE_DIR, 'templates/trabajos'),
+                 ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -81,7 +83,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'db_optica',
         'USER': 'root',
-        'PASSWORD': 'admin',#'100702',
+        'PASSWORD': '100702',#'100702',
         'HOST': 'localhost',
         'PORT': '3306',
     }
