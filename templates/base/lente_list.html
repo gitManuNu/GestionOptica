@@ -1,0 +1,17 @@
+<html>
+  <h1>LENTES</h1>
+  <a href="{% url 'lente-create-view' %}">
+    <button>Agregar Nuevo</button>  
+  </a>
+  <ul>
+  {% for lente in object_list %}
+    <li>
+      {{ lente.descripcion }}
+      <a href="{% url 'lente-update-view' lente.id %}">Modificar</a>
+      <a href="{% url 'lente-delete-view' lente.id %}">Borrar</a>
+    </li>
+  {% empty %}
+  <li>No hay lentes registradas.</li>
+  {% endfor %}
+  </ul>
+</html>

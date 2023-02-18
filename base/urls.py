@@ -16,4 +16,8 @@ urlpatterns = [
     path('doctor/crear/', views.DoctorCreateView.as_view(), name='doctor-create-view'),
     path('doctor/<int:pk>/modificar/', views.DoctorUpdateView.as_view(), name='doctor-update-view'),
     path('doctor/<int:pk>/borrar/', views.DoctorDeleteView.as_view(), name='doctor-delete-view'),
+    path('lente/', views.LenteListView.as_view(), name='lente-list-view'),
+    path('lente/crear/', views.LenteCreateView.as_view(), name='lente-create-view'),
+    path('lente/<int:pk>/modificar/', views.LenteUpdateView.as_view(), name='lente-update-view'),
+    path('lente/<int:pk>/borrar/', views.LenteDeleteView.as_view(), name='lente-delete-view'),
 ]

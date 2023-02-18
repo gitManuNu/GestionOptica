@@ -3,7 +3,7 @@ from django.views.generic import ListView, DetailView
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.urls import reverse_lazy
-from .models import ObraSocial, Persona, Doctor
+from .models import ObraSocial, Persona, Doctor, Lente
 
 # CRUD - OBRAS SOCIALES
 class ObraSocialListView(ListView):
@@ -89,3 +89,30 @@ class DoctorDeleteView(DeleteView):
     model = Doctor
     template_name = "doctor_confirm_delete.html"
     success_url = reverse_lazy('doctor-list-view')
+
+
+# CRUD - LENTES
+class LenteListView(ListView):
+    model = Lente
+    template_name = "lente_list.html"
+
+
+class LenteCreateView(CreateView):
+    model = Lente
+    fields = '__all__'
+    template_name = 'lente_create_form.html'
+    success_url = reverse_lazy('lente-list-view')
+    
+
+class LenteUpdateView(UpdateView):
+    model = Lente
+    fields = '__all__'
+    template_name = "lente_update_form.html"
+    success_url = reverse_lazy('lente-list-view')
+
+
+class LenteDeleteView(DeleteView):
+    model = Lente
+    template_name = "lente_confirm_delete.html"
+    success_url = reverse_lazy('lente-list-view')
+
