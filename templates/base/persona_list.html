@@ -3,6 +3,13 @@
   <a href="{% url 'persona-create-view' %}">
     <button>Agregar Nuevo</button>  
   </a>
+  
+  <form action="" method="get">
+    <p>Buscar por:</p>
+    apellido: <input type="text" name="apellido" value={{buscar_apellido}}>
+    <input type="submit" value="Buscar">
+  </form>
+
   <ul>
   {% for persona in object_list %}
     <li>
@@ -12,4 +19,27 @@
   <li>No hay personas registradas.</li>
   {% endfor %}
   </ul>
+
+  <form>
+    {% if buscar_apellido %}
+    <input type="hidden" id="input_apellido" name="apellido" value={{buscar_apellido}}>
+    {% endif %}
+    <div class="pagination">
+      <span class="step-links">
+          {% if page_obj.has_previous %}
+            <button name="page" type="submit" value="1">&laquo; Primero</button>
+            <button name="page" type="submit" value={{page_obj.previous_page_number}}>ant</button>
+          {% endif %}
+
+          <span class="current">
+              {{ page_obj.number }} / {{ page_obj.paginator.num_pages }}.
+          </span>
+
+          {% if page_obj.has_next %}
+              <button name="page" type="submit" value={{page_obj.next_page_number}}>sig</button>
+              <button name="page" type="submit" value={{page_obj.paginator.num_pages}}>Último &raquo;</button>
+          {% endif %}
+      </span>
+    </div>
+  </form>
 </html>

@@ -1,5 +1,6 @@
 from django.urls import path
 from base import views
+from django.views.generic import TemplateView
 
 urlpatterns = [
     path('obra-social/', views.ObraSocialListView.as_view(), name='obra-social-list-view'),
@@ -20,4 +21,5 @@ urlpatterns = [
     path('lente/crear/', views.LenteCreateView.as_view(), name='lente-create-view'),
     path('lente/<int:pk>/modificar/', views.LenteUpdateView.as_view(), name='lente-update-view'),
     path('lente/<int:pk>/borrar/', views.LenteDeleteView.as_view(), name='lente-delete-view'),
+    path('test', TemplateView.as_view(template_name="test.html")),
 ]
